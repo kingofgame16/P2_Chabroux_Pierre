@@ -300,8 +300,6 @@ aside {
     grid-gap: 30px;
     grid-auto-flow: dense;
 }
-
-    /* placement des cartes activités */
     #activities a:first-child {
         grid-column: 1;
         grid-row: span 8;
