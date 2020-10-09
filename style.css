@@ -13,8 +13,11 @@ header, section {
     padding: 0 10px;
 }
 
-    /*header*/
+ul {
+    list-style: none
+}
 
+    /*header*/
     header nav a img {
         width: 150px;
     }
