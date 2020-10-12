@@ -143,6 +143,8 @@ button:focus {
 
 .fa-info-circle {
     margin: 10px;
+    background-color: #0065FC;
+    color: white;
 }
 
 .fa-map-marker-alt {
@@ -167,7 +169,7 @@ button:focus {
     margin-left: -2px;
 }
 
-.fa-info-circle, .fa-star {
+.fa-star {
     color: #0065FC;
 }
 
@@ -211,7 +213,13 @@ h3 {
     box-shadow: 0 0 4px black;
 }
 
-    .heberge2 figure img {
+    .heberge2 figure {
+        display: block;
+        margin: auto
+        
+    }
+
+    .heberge2 img {
         display: block;
         border-radius: 10px 10px 0 0;
         height: 90px;
@@ -227,9 +235,7 @@ figcaption {
     font-weight: bold;
 }
 
-.heberge2 figure figcaption, .heberge2 p, .heberge2 div {
-    margin-left: 4%;
-}
+
 
 /*populaire (aside droite)*/
 
@@ -263,8 +269,8 @@ aside {
     .populaire img {
         border-radius: 10px 0 0 10px;
         height: 100px;
-        width: 90px;
-        min-width: 90px;
+        width: 95px;
+        min-width: 100px;
         object-fit: cover;
     }
 
@@ -394,4 +400,8 @@ footer {
     text-decoration: none;
     border: none;
     padding: 5px 0 0 0;
+}
+@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
 }
