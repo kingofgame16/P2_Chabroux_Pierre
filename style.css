@@ -266,11 +266,15 @@ aside {
     display: flex;
 }
 
+.fas fa-chart-line {
+    display: flex;
+    justify-content:left
+}
+
     .populaire img {
         border-radius: 10px 0 0 10px;
         height: 100px;
         width: 95px;
-        min-width: 100px;
         object-fit: cover;
     }
 
@@ -295,8 +299,7 @@ aside {
     }
 
 .img {
-    float :left
-   
+    float :left   
 }
 
 /* activités (section bas) */
