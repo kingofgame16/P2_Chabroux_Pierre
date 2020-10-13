@@ -127,12 +127,10 @@ button:focus {
 
 .search_button {
     display: block;
-    border: 2px solid #0065FC;
     background-color: #0065FC;
     border-radius: 0 10px 10px 0;
     font-weight: bold;
     color: #F2F2F2;
-    margin-left: -2px;
 }
 
 #info {
@@ -173,6 +171,10 @@ button:focus {
     color: #0065FC;
 }
 
+    .icon-d {
+        color: #F2F2F2;
+    }
+
 /*Hebergement (section gauche)*/
 #global1 {
     display: flex;
@@ -207,7 +209,6 @@ h3 {
 .heberge2 {
     background-color: white;
     border: 20px;
-    border-color: white;
     border-radius: 10px;
     padding: 3px;
     box-shadow: 0 0 4px black;
@@ -259,14 +260,15 @@ aside {
 .populaire {
     background-color: white;
     margin: 10px;
-    border-color: white;
     border-radius: 10px;
     box-shadow: 0 0 4px black;
     width: 100%;
 }
 
-.populaire {
+.pop {
     display: flex;
+    margin: 5px 5px 0px 5px
+
 }
 
 .fas fa-chart-line {
@@ -277,7 +279,7 @@ aside {
     .populaire img {
         border-radius: 10px 0 0 10px;
         height: 100px;
-        width: 95px;
+        width: 100px;
         object-fit: cover;
     }
 
@@ -301,9 +303,6 @@ aside {
         font-size: 0.8em;
     }
 
-.img {
-    float :left   
-}
 
 /* activités (section bas) */
 
@@ -436,8 +435,4 @@ footer {
     text-decoration: none;
     border: none;
     padding: 5px 0 0 0;
-}
-@viewport {
-   width: device-width; /* largeur du viewport */
-   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
 }
