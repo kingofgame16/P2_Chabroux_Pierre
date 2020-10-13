@@ -229,10 +229,13 @@ h3 {
 
 figcaption, .prix, .star {
     font-size: 0.8em;
+    margin-left:10px
 }
 
 figcaption {
     font-weight: bold;
+    margin-left:10px;
+    margin-top:15px
 }
 
 
@@ -362,10 +365,15 @@ aside {
             margin:auto
         }
 
+        #activities a:first-child figcaption, #activities a:nth-child(4) figcaption {
+            margin-top:15px;
+            margin-left:10px
+        }
+
         #activities a:nth-child(2) img, #activities a:last-child img {
             display: block;
             border-radius: 10px 10px 0 0;
-            height: 230px;
+            height: 240px;
             width: 310px;
             object-fit:cover
         }
@@ -373,6 +381,11 @@ aside {
         #activities a:nth-child(2) figure, #activities a:last-child figure {
             display: block;
             margin:auto
+        }
+
+        #activities a:nth-child(2) figcaption, #activities a:last-child figcaption {
+            margin-top:15px;
+            margin-left:10px
         }
 
         #activities a:nth-child(3) img, #activities a:nth-child(5) img {
@@ -387,6 +400,11 @@ aside {
         #activities a:nth-child(3) figure, #activities a:nth-child(5) figure {
             display: block;
             margin:auto
+        }
+
+        #activities a:nth-child(3) figcaption, #activities a:nth-child(5) figcaption {
+            margin-top:15px;
+            margin-left:10px
         }
 
         #activities a p {
