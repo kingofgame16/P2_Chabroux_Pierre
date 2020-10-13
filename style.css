@@ -349,26 +349,41 @@ aside {
         #activities a:first-child img, #activities a:nth-child(4) img {
             display: block;
             border-radius: 10px 10px 0 0;
-            min-height: 24em;
-            width: 260px;
+            min-height: 27em;
+            width: 310px;
             object-fit: cover;
+        }
+
+        #activities a:first-child figure, #activities a:nth-child(4) figure {
+            display: block;
+            margin:auto
         }
 
         #activities a:nth-child(2) img, #activities a:last-child img {
             display: block;
             border-radius: 10px 10px 0 0;
-            min-height: 14em;
-            width: 80%;
+            height: 230px;
+            width: 310px;
             object-fit:cover
-           
+        }
+
+        #activities a:nth-child(2) figure, #activities a:last-child figure {
+            display: block;
+            margin:auto
         }
 
         #activities a:nth-child(3) img, #activities a:nth-child(5) img {
             display: block;
             border-radius: 10px 10px 0 0;
-            min-height: 5em;
-            width : 80%;
+            height: 120px;
+            width : 310px;
             object-fit: cover;
+        }
+
+
+        #activities a:nth-child(3) figure, #activities a:nth-child(5) figure {
+            display: block;
+            margin:auto
         }
 
         #activities a p {
