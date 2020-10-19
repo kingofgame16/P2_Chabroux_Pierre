@@ -305,51 +305,45 @@ aside {
 /* activités (section bas) */
 
 #activities {
-    display: grid;
+    display: flex;
     padding: 20px 0px 0px 0px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 32.5px);
-    grid-gap: 30px;
-    grid-auto-flow: dense;
+    
 }
-    #activities a:first-child {
-        grid-column: 1;
-        grid-row: span 8;
+
+
+    .activities1 a {
+        order:1;
+        flex-direction:row
+
     }
 
-    #activities a:nth-child(2) {
-        grid-column: 2;
-        grid-row: 1 / 6;
+    .activities2 a {
+        order:2;
+        flex-direction:column
     }
 
-    #activities a:nth-child(3) {
-        grid-column: 2;
-        grid-row: 6 / 9;
+
+    .activities3 a {
+        order:3;
+        flex-direction:row
+
     }
 
-    #activities a:nth-child(4) {
-        grid-column: 3;
-        grid-row: span 8;
+    .activities4 a {
+       order:4;
+       flex-direction:column
     }
 
-    #activities a:nth-child(5) {
-        grid-column: 4;
-        grid-row: 1 / 4;
-    }
+   
 
-    #activities a:last-child {
-        grid-column: 4;
-        grid-row: 4 / 9;
-    }
-
-    #activities a {
+    .activities a {
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 0 4px grey;
         width: 260px;
     }
 
-        #activities a:first-child img, #activities a:nth-child(4) img {
+        .activities1 img, .activities3 img {
             display: block;
             border-radius: 10px 10px 0 0;
             min-height: 27em;
@@ -357,17 +351,17 @@ aside {
             object-fit: cover;
         }
 
-        #activities a:first-child figure, #activities a:nth-child(4) figure {
+        .activities1 figure, .activities3 figure {
             display: block;
             margin:0px 0px 0px 0px
         }
 
-        #activities a:first-child figcaption, #activities a:nth-child(4) figcaption {
+        .activities1 figcaption, .activities3 figcaption {
             margin-top:15px;
             margin-left:10px
         }
 
-        #activities a:nth-child(2) img, #activities a:last-child img {
+        .activities2 img {
             display: block;
             border-radius: 10px 10px 0 0;
             height: 240px;
@@ -375,17 +369,17 @@ aside {
             object-fit:cover
         }
 
-        #activities a:nth-child(2) figure, #activities a:last-child figure {
+        .activities2 figure {
             display: block;
             margin:auto
         }
 
-        #activities a:nth-child(2) figcaption, #activities a:last-child figcaption {
+        .activities2 figcaption{
             margin-top:15px;
             margin-left:10px
         }
 
-        #activities a:nth-child(3) img, #activities a:nth-child(5) img {
+        .activities4 img {
             display: block;
             border-radius: 10px 10px 0 0;
             height: 120px;
@@ -394,17 +388,17 @@ aside {
         }
 
 
-        #activities a:nth-child(3) figure, #activities a:nth-child(5) figure {
+        .activities4 figure {
             display: block;
             margin:auto
         }
 
-        #activities a:nth-child(3) figcaption, #activities a:nth-child(5) figcaption {
+        .activities4 figcaption {
             margin-top:15px;
             margin-left:10px
         }
 
-        #activities a p {
+        .activities a p {
             margin: 5%;
             font-weight: bold;
             font-size: 0.8em;
