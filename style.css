@@ -5,13 +5,12 @@
 
 body {
     font-family: 'Raleway';
-    margin-left:3%;
-    margin-right:4%;
     
 }
 
 header, section {
-    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 0 0px 0px 0px;
 }
 
@@ -22,7 +21,7 @@ ul {
 
     /*header*/
     header nav a img {
-        width: 150px;
+        width: 90px;
     }
 
 nav {
@@ -185,7 +184,7 @@ button:focus {
 
 
 #container {
-    width: 70%;
+    width: 880px;
     background-color: #F2F2F2;
     margin: 15px 10px 15px 0;
     border-radius: 10px;
@@ -203,7 +202,7 @@ h3 {
 }
 
 #heberge {
-    padding: 20px;
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -249,7 +248,7 @@ figcaption {
 /*populaire (aside droite)*/
 
 aside {
-    width: 30%;
+    width: 420px;
     background-color: #F2F2F2;
     margin: 15px 0 15px 30px;
     border-radius: 10px;
@@ -267,7 +266,8 @@ aside {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 4px grey;
-    width: 260px;
+    width: 340px;
+    height:145px
 }
 
 .pop {
@@ -290,7 +290,7 @@ aside {
 
     .populaire img {
         border-radius: 10px 0 0 10px;
-        height: 100px;
+        height: 138px;
         width: 100px;
         object-fit: cover;
     }
@@ -364,13 +364,13 @@ aside {
             display: block;
             border-radius: 10px 10px 0 0;
             min-height: 27em;
-            width: 260px;
+            width: 300px;
             object-fit: cover;
         }
 
         #activities1 figure, #activities3 figure {
             display: block;
-            margin:0px 0px 0px 0px
+            margin:0px 40px 0px 5px
         }
 
         #activities1 figcaption, #activities3 figcaption {
@@ -378,29 +378,48 @@ aside {
             margin-left:10px
         }
 
-        #activities2 img {
+        #fort img {
             display: block;
             border-radius: 10px 10px 0 0;
             height: 240px;
-            width: 260px;
+            width: 300px;
             object-fit:cover
         }
 
-        #activities2 figure {
-            display: block;
-            margin:auto
+        #fort figure {
+         display: block;
+          margin: 0px 40px 0px 5px
         }
 
-        #activities2 figcaption{
+        #fort figcaption{
             margin-top:15px;
             margin-left:10px
         }
+
+
+        #iles img {
+            display: block;
+            border-radius: 10px 10px 0 0;
+            height: 240px;
+            width: 300px;
+            object-fit: cover
+        }
+
+         #iles figure {
+             display: block;
+             margin: 0px 40px 0px 5px
+         }
+
+         #iles figcaption {
+               margin-top: 15px;
+               margin-left: 10px
+         }
 
         #activities4 img {
             display: block;
             border-radius: 10px 10px 0 0;
             height: 120px;
-            width : 260px;
+            width : 300px;
             object-fit: cover;
         }
 
