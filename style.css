@@ -230,13 +230,15 @@ h3 {
 
 figcaption, .prix, .star {
     font-size: 0.8em;
-    margin-left:10px
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:auto
 }
 
 figcaption {
     font-weight: bold;
     margin-left:10px;
-    margin-top:15px
+    margin-top:5px
 }
 
 
@@ -262,12 +264,12 @@ aside {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 4px grey;
-    width: 100%;
+    width: 260px;
 }
 
 .pop {
     display: flex;
-    margin: 5px 5px 0px 5px
+    margin: 3px 3px 0px 3px
 
 }
 
@@ -297,15 +299,18 @@ aside {
 
     .txt .star {
         justify-content: flex-end;
+        margin-left: 0px;
     }
 
     .txt p:first-child {
         font-weight: bold;
         font-size: 0.8em;
+        margin-top: 0px;
     }
 
     .txt p:nth-child(2) {
         font-size: 0.8em;
+        margin-top:0px;
     }
 
 
