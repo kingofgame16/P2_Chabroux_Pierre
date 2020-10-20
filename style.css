@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Raleway';
+    
 }
 
 header, section {
@@ -13,7 +14,8 @@ header, section {
 }
 
 ul {
-    list-style: none
+    list-style: none;
+    padding-left:initial
 }
 
     /*header*/
@@ -267,6 +269,11 @@ aside {
     display: flex;
     margin: 5px 5px 0px 5px
 
+}
+
+.logo {
+    display: flex;
+    justify-content:space-between
 }
 
 .fas fa-chart-line {
