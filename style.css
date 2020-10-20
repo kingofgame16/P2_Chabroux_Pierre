@@ -5,6 +5,8 @@
 
 body {
     font-family: 'Raleway';
+    margin-left:3%;
+    margin-right:4%;
     
 }
 
@@ -183,7 +185,7 @@ button:focus {
 
 
 #container {
-    width: 700px;
+    width: 70%;
     background-color: #F2F2F2;
     margin: 15px 10px 15px 0;
     border-radius: 10px;
@@ -247,7 +249,7 @@ figcaption {
 /*populaire (aside droite)*/
 
 aside {
-    width: 300px;
+    width: 30%;
     background-color: #F2F2F2;
     margin: 15px 0 15px 30px;
     border-radius: 10px;
@@ -358,7 +360,7 @@ aside {
         width: 260px;
     }
 
-        .activities1 img, .activities3 img {
+        #activities1 img, #activities3 img {
             display: block;
             border-radius: 10px 10px 0 0;
             min-height: 27em;
@@ -366,17 +368,17 @@ aside {
             object-fit: cover;
         }
 
-        .activities1 figure, .activities3 figure {
+        #activities1 figure, #activities3 figure {
             display: block;
             margin:0px 0px 0px 0px
         }
 
-        .activities1 figcaption, .activities3 figcaption {
+        #activities1 figcaption, #activities3 figcaption {
             margin-top:15px;
             margin-left:10px
         }
 
-        .activities2 img {
+        #activities2 img {
             display: block;
             border-radius: 10px 10px 0 0;
             height: 240px;
@@ -384,17 +386,17 @@ aside {
             object-fit:cover
         }
 
-        .activities2 figure {
+        #activities2 figure {
             display: block;
             margin:auto
         }
 
-        .activities2 figcaption{
+        #activities2 figcaption{
             margin-top:15px;
             margin-left:10px
         }
 
-        .activities4 img {
+        #activities4 img {
             display: block;
             border-radius: 10px 10px 0 0;
             height: 120px;
@@ -403,17 +405,17 @@ aside {
         }
 
 
-        .activities4 figure {
+        #activities4 figure {
             display: block;
             margin:auto
         }
 
-        .activities4 figcaption {
+        #activities4 figcaption {
             margin-top:15px;
             margin-left:10px
         }
 
-        .activities a p {
+        #activities a p {
             margin: 5%;
             font-weight: bold;
             font-size: 0.8em;
