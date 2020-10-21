@@ -214,6 +214,8 @@ h3 {
     border-radius: 10px;
     padding: 3px;
     box-shadow: 0 0 4px grey;
+    height: 194px;
+    width: 239px
 }
 
     .heberge2 figure {
@@ -225,8 +227,8 @@ h3 {
     .heberge2 img {
         display: block;
         border-radius: 10px 10px 0 0;
-        height: 90px;
-        width: 100%;
+        height: 115px;
+        width: 240px;
         object-fit: cover;
     }
 
@@ -290,8 +292,8 @@ aside {
 
     .populaire img {
         border-radius: 10px 0 0 10px;
-        height: 138px;
-        width: 100px;
+        height: 140px;
+        width: 132px;
         object-fit: cover;
     }
 
@@ -363,7 +365,7 @@ aside {
         #activities1 img, #activities3 img {
             display: block;
             border-radius: 10px 10px 0 0;
-            min-height: 27em;
+            height: 385px;
             width: 300px;
             object-fit: cover;
         }
@@ -374,14 +376,14 @@ aside {
         }
 
         #activities1 figcaption, #activities3 figcaption {
-            margin-top:15px;
+            height:60px;
             margin-left:10px
         }
 
         #fort img {
             display: block;
             border-radius: 10px 10px 0 0;
-            height: 240px;
+            height: 180px;
             width: 300px;
             object-fit:cover
         }
@@ -392,15 +394,20 @@ aside {
         }
 
         #fort figcaption{
-            margin-top:15px;
+            height:60px;
             margin-left:10px
         }
+
+        #fort {
+             height:275px
+        }
+
 
 
         #iles img {
             display: block;
             border-radius: 10px 10px 0 0;
-            height: 240px;
+            height: 110px;
             width: 300px;
             object-fit: cover
         }
@@ -411,28 +418,53 @@ aside {
          }
 
          #iles figcaption {
-               margin-top: 15px;
+               height: 60px;
                margin-left: 10px
          }
 
-        #activities4 img {
+        #notredame img {
             display: block;
             border-radius: 10px 10px 0 0;
-            height: 120px;
+            height: 140px;
             width : 300px;
             object-fit: cover;
         }
 
 
-        #activities4 figure {
+        #notredame figure {
             display: block;
             margin:auto
         }
 
-        #activities4 figcaption {
-            margin-top:15px;
+        #notredame figcaption {
+            height:60px;
             margin-left:10px
         }
+
+        #notredame {
+            height: 235px
+        }
+
+        #parc img {
+            display: block;
+            border-radius: 10px 10px 0 0;
+            height: 150px;
+            width: 300px;
+            object-fit: cover;
+        }
+
+
+        #parc figure {
+            display: block;
+            margin: auto
+        }
+
+        #parc figcaption {
+            height: 60px;
+            margin-left: 10px
+        }
+
+
 
         #activities a p {
             margin: 5%;
