@@ -373,17 +373,19 @@ aside {
             object-fit: cover;
         }
 
-#activities1 figure, #activities3 figure {
-    display: block;
-    margin: 0px 40px 0px 5px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 4px grey;
-}
+        #activities1 figure, #activities3 figure {
+             display: block;
+             margin: 0px 40px 0px 5px;
+             background-color: white;
+             border-radius: 10px;
+             box-shadow: 0 0 4px grey;
+        }
 
         #activities1 figcaption, #activities3 figcaption {
-            height:60px;
-            margin-left:10px
+            height:40px;
+            margin-left:10px;
+            margin-top:15px;
+            font-size:20px;
         }
 
         #fort img {
@@ -391,24 +393,26 @@ aside {
             border-radius: 10px 10px 0 0;
             height: 180px;
             width: 300px;
-            object-fit:cover
+            object-fit:cover;
         }
 
-#fort figure {
-    display: block;
-    margin: 0px 40px 0px 5px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 4px grey;
-}
+        #fort figure {
+            display: block;
+            margin: 0px 40px 0px 5px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 4px grey;
+        }
 
         #fort figcaption{
-            height:60px;
-            margin-left:10px
+            height:40px;
+            margin-left:10px;
+            margin-top:15px;
+            font-size:20px;
         }
 
         #fort {
-             height:275px
+             height:275px;
         }
 
 
@@ -418,21 +422,23 @@ aside {
             border-radius: 10px 10px 0 0;
             height: 110px;
             width: 300px;
-            object-fit: cover
+            object-fit: cover;
         }
 
-#iles figure {
-    display: block;
-    margin: 0px 40px 0px 5px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 4px grey;
-}
+        #iles figure {
+            display: block;
+            margin: 0px 40px 0px 5px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 4px grey;
+        }
 
-         #iles figcaption {
-               height: 60px;
-               margin-left: 10px
-         }
+        #iles figcaption {
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 15px;
+            font-size:20px;
+        }
 
         #notredame img {
             display: block;
@@ -443,21 +449,23 @@ aside {
         }
 
 
-#notredame figure {
-    display: block;
-    margin: auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 4px grey;
-}
+         #notredame figure {
+             display: block;
+             margin: auto;
+             background-color: white;
+             border-radius: 10px;
+             box-shadow: 0 0 4px grey;
+         }
 
-        #notredame figcaption {
-            height:60px;
-            margin-left:10px
-        }
+         #notredame figcaption {
+             height: 40px;
+             margin-left: 10px;
+             margin-top: 15px;
+             font-size:20px;
+         }
 
         #notredame {
-            height: 235px
+            height: 235px;
         }
 
         #parc img {
@@ -469,17 +477,19 @@ aside {
         }
 
 
-#parc figure {
-    display: block;
-    margin: auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 4px grey;
-}
+        #parc figure {
+           display: block;
+           margin: auto;
+           background-color: white;
+           border-radius: 10px;
+           box-shadow: 0 0 4px grey;
+        }
 
         #parc figcaption {
-            height: 60px;
-            margin-left: 10px
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 15px;
+            font-size:20px;
         }
 
 
