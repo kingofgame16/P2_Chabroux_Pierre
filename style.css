@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Raleway';
-    
+    width:1440px;    
 }
 
 #logoR {
@@ -16,8 +16,7 @@ body {
 header{
     display:flex;
     justify-content:flex-end;
-    margin-left: 50px;
-    margin-right: 130px;
+    margin-right: 25px;
    
 }
 
@@ -513,8 +512,7 @@ aside {
 footer {
     background-color: #F2F2F2;
     margin-top: 36px;
-    margin-right:100px;
-    margin-left:10px;
+    
 }
 
 #global3 {
