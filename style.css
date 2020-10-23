@@ -8,7 +8,20 @@ body {
     
 }
 
-header, section {
+#logoR {
+    padding-left: 50px;
+}
+
+
+header{
+    display:flex;
+    justify-content:flex-end;
+    margin-left: 50px;
+    margin-right: 130px;
+   
+}
+
+section {
     margin-left: 50px;
     margin-right: 50px;
     padding: 0 0px 0px 0px;
@@ -24,11 +37,6 @@ ul {
         width: 90px;
     }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 h1 {
     font-size: 1.4em;
@@ -505,13 +513,15 @@ aside {
 footer {
     background-color: #F2F2F2;
     margin-top: 36px;
+    margin-right:100px;
+    margin-left:10px;
 }
 
 #global3 {
     display: flex;
     justify-content: space-between;
     max-width: 1024px;
-    padding: 15px;
+    padding-left: 56px;
 }
 
 .menu {
