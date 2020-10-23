@@ -235,7 +235,7 @@ h3 {
 figcaption, .prix, .star {
     font-size: 0.8em;
     margin-left:10px;
-    margin-top:5px;
+    margin-top:12px;
     margin-bottom:auto
 }
 
@@ -265,7 +265,7 @@ aside {
 
 .populaire {
     background-color: white;
-    margin: 10px;
+    margin: 18px;
     border-radius: 10px;
     box-shadow: 0 0 4px grey;
     width: 340px;
@@ -304,10 +304,13 @@ aside {
     flex-direction: column;
 }
 
+
     .txt .star {
         justify-content: flex-end;
         margin-left: 0px;
+        margin-top:30px
     }
+
 
     .txt p:first-child {
         font-weight: bold;
@@ -370,10 +373,13 @@ aside {
             object-fit: cover;
         }
 
-        #activities1 figure, #activities3 figure {
-            display: block;
-            margin:0px 40px 0px 5px
-        }
+#activities1 figure, #activities3 figure {
+    display: block;
+    margin: 0px 40px 0px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
 
         #activities1 figcaption, #activities3 figcaption {
             height:60px;
@@ -388,10 +394,13 @@ aside {
             object-fit:cover
         }
 
-        #fort figure {
-         display: block;
-          margin: 0px 40px 0px 5px
-        }
+#fort figure {
+    display: block;
+    margin: 0px 40px 0px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
 
         #fort figcaption{
             height:60px;
@@ -412,10 +421,13 @@ aside {
             object-fit: cover
         }
 
-         #iles figure {
-             display: block;
-             margin: 0px 40px 0px 5px
-         }
+#iles figure {
+    display: block;
+    margin: 0px 40px 0px 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
 
          #iles figcaption {
                height: 60px;
@@ -431,10 +443,13 @@ aside {
         }
 
 
-        #notredame figure {
-            display: block;
-            margin:auto
-        }
+#notredame figure {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
 
         #notredame figcaption {
             height:60px;
@@ -454,10 +469,13 @@ aside {
         }
 
 
-        #parc figure {
-            display: block;
-            margin: auto
-        }
+#parc figure {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
 
         #parc figcaption {
             height: 60px;
