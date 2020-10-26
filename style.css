@@ -5,16 +5,17 @@
 
 body {
     font-family: 'Raleway';
-    width:1440px;    
+        
 }
+
 
 
 
 header{
     display:flex;
     justify-content:space-between;
-    width:1305px;
-    margin-left:40px;
+    max-width:1305px;
+    margin-left:45px;
    
 }
 
@@ -511,15 +512,16 @@ aside {
 
 footer {
     background-color: #F2F2F2;
-    margin-top: 36px;
+    margin:60px -7px 0 -7px;
+    box-sizing:border-box;
     
 }
 
 #global3 {
     display: flex;
     justify-content: space-between;
-    max-width: 1024px;
-    padding-left: 56px;
+    max-width: 1000px;
+    padding-left: 130px;
 }
 
 .menu {
