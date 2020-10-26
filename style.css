@@ -8,15 +8,13 @@ body {
     width:1440px;    
 }
 
-#logoR {
-    padding-left: 50px;
-}
 
 
 header{
     display:flex;
-    justify-content:flex-end;
+    justify-content:space-between;
     margin-right: 25px;
+    margin-left:40px;
    
 }
 
@@ -67,6 +65,7 @@ header nav ul li:last-child:hover {
 a {
     text-decoration: none;
     color: black;
+    margin-top:28px;
 }
 
     a:hover {
@@ -392,7 +391,7 @@ aside {
             height:40px;
             margin-left:10px;
             margin-top:15px;
-            font-size:20px;
+            font-size:16px;
         }
 
         #fort img {
@@ -415,7 +414,7 @@ aside {
             height:40px;
             margin-left:10px;
             margin-top:15px;
-            font-size:20px;
+            font-size:16px;
         }
 
         #fort {
@@ -444,7 +443,7 @@ aside {
             height: 40px;
             margin-left: 10px;
             margin-top: 15px;
-            font-size:20px;
+            font-size:16px;
         }
 
         #notredame img {
@@ -468,7 +467,7 @@ aside {
              height: 40px;
              margin-left: 10px;
              margin-top: 15px;
-             font-size:20px;
+             font-size:16px;
          }
 
         #notredame {
@@ -496,7 +495,7 @@ aside {
             height: 40px;
             margin-left: 10px;
             margin-top: 15px;
-            font-size:20px;
+            font-size:16px;
         }
 
 
