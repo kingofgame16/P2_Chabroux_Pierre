@@ -222,7 +222,7 @@ h4 {
 .hebergeim1 {
     width: 95%;
     height: 56%;
-    margin: 0.6em;
+    margin: 0.3em;
     margin-top: 8px;
     border-radius: 1.5em 1.5em 0 0;
     background-image: url(Images/cannebiere.jpg);
@@ -233,7 +233,7 @@ h4 {
 .hebergeim2 {
     width: 95%;
     height: 56%;
-    margin: 0.6em;
+    margin: 0.3em;
     margin-top: 8px;
     border-radius: 1.5em 1.5em 0 0;
     background-image: url(Images/hotel_port.jpg);
@@ -244,7 +244,7 @@ h4 {
 .hebergeim3 {
     width: 95%;
     height: 56%;
-    margin: 0.6em;
+    margin: 0.3em;
     margin-top: 8px;
     border-radius: 1.5em 1.5em 0 0;
     background-image: url(Images/mouettes.jpg);
@@ -255,7 +255,7 @@ h4 {
 .hebergeim4 {
     width: 95%;
     height: 56%;
-    margin: 0.6em;
+    margin: 0.3em;
     margin-top: 8px;
     border-radius: 1.5em 1.5em 0 0;
     background-image: url(Images/mer.jpg);
@@ -266,7 +266,7 @@ h4 {
 .hebergeim5 {
     width: 95%;
     height: 56%;
-    margin: 0.6em;
+    margin: 0.3em;
     margin-top: 8px;
     border-radius: 1.5em 1.5em 0 0;
     background-image: url(Images/panier.jpg);
@@ -277,7 +277,7 @@ h4 {
 .hebergeim6 {
     width: 95%;
     height: 56%;
-    margin: 0.6em;
+    margin: 0.3em;
     margin-top: 8px;
     border-radius: 1.5em 1.5em 0 0;
     background-image: url(Images/amina.jpg);
@@ -432,7 +432,7 @@ a {
 }
 
 .textpop1 p {
-     margin-bottom: 4em;
+     margin-bottom: 3em;
 }
 
 .textpop2 p {
