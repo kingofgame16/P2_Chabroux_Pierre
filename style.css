@@ -5,10 +5,13 @@
 
 body {
     font-family: 'Raleway';
-    width:100%;
+    max-width: 1920px;
+    margin: auto;
 }
 
-
+#nav2 {
+    padding-left:3em;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -177,17 +180,18 @@ h4 {
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 16px;
-    width: 65%;
-    
+    width: 60%;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
 }
 
 #popu {
     display: flex;
-    flex-direction: row;
-    align-content: start;
     justify-content: space-between;
     margin-top: 30px;
-    margin-right:40px;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
     .hebergement h2 {
@@ -206,12 +210,14 @@ h4 {
 
 .box-heberge {
     display: flex;
+    align-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .heberge {
-    width: 245px;
-    height: 130px;
+    width: 28%;
+    height: 9em;
     margin: 30px 15px 80px 30px;
 }
 
@@ -257,14 +263,12 @@ a {
 /*populaire (aside droite)*/
 
 .populaires {
-    display: flex;
-    flex-direction: column;
     background-color: #F2F2F2;
-    border: 5px;
-    border-bottom: 2px;
     border-radius: 16px;
-    max-width: 33%;
+    width: 32%;
     height: 620px;
+    margin-right: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
 }
 
 
@@ -277,40 +281,44 @@ a {
 
 
 .box-populaire {
+    height:30em;
     display: flex;
-    flex-wrap: wrap;
-    margin-top:-37px;
+    flex-direction: column;
 }
 
     .box-populaire img {
-        display:flex;
-        width: 135px;
-        height: 138px;
-        border-radius: 16px;
-        border: 5px solid white;
-        border-right: 200px solid white;
-        box-shadow: 5px 5px 19px #c4c0c0;
+        width: 33%;
+        height: 92%;
+        margin: 6.45px;
+        margin-left: 8px;
+        margin-right: 0;
+        border-radius: 1.8em 0 0 1.8em;
+        background-size: cover;
+        background-position: center;
     }
 
-.pop {
-    width: 270px;
-    height: 100px;
-    margin: 38px 0 38px 30px;
-    cursor: pointer;
+        .pop {
+    display: flex;
+    border-radius: 2em;
+    width: 85%;
+    height: 28%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    margin: auto;
 }
 
 .box-populaire h3 {
-    margin: -130px -20px 0 150px;
+    margin: -130px 0 0 180px;
     font-size: 1em;
 }
 
 .box-populaire p {
-    margin: 6px -50px 0 150px;
+    margin: 6px 0 0 180px;
     font-size: 0.9em;
 }
 
 .star {
-    margin: 35px 0 0 160px;
+    margin: 35px 0 0 180px;
     color: #0065FC;
 }
 
@@ -322,6 +330,8 @@ a {
     flex-direction: column;
     background-color: white;
     margin: 50px 0 0 0;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .box-activities {
