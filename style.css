@@ -12,44 +12,46 @@ body {
 #nav2 {
     padding-left:3em;
 }
-.header {
+
+header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    line-height: 70px;
-    font-family: 'Raleway-extrabold ';
-    font-weight: bold;
-    float: left;
+    margin-bottom: 3em;
 }
 
-.header-logo {
-    color: #0065fc;
-    font-family: 'Raleway', sans-serif;
+#imglogo {
+    margin-top: 3em;
+    height: 3.5em;
 }
 
-.header-menu {
-    font-family: 'Raleway', sans-serif;
-    float: right;
-    color: #0065fc;
+nav {
+    margin-right: 3em;
 }
 
-.nav {
-    text-decoration: none;
-    margin-right: 70px;
-    color: #0065fc;
-}
-
-    .nav:hover {
-        text-decoration: none;
-        border-top: 2px solid #0065FC;
-        padding-top: 28px;
-    }
-
-.info {
+nav ul {
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+    font-size: 1.2em;
+    width: 35em;
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
 }
+
+
+.liennav:nth-child(1) {
+    border-top: solid 3px #0065FC;
+    color: #0065FC;
+    font-family: 'Raleway';
+}
+
+.liennav {
+    width: 33%;
+    text-align: center;
+    padding-top: 3em;
+}
+
 
 .body {
     font-family: 'Raleway', sans-serif;
@@ -58,9 +60,15 @@ body {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.25em;
-    font-weight: 900;
+    font-size: 1.9em;
 }
+
+#Filtres1 p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.38em;
+    margin-top:0.5em;
+}
+
 /*bar de recherche*/
 
 #search {
@@ -68,6 +76,7 @@ h1 {
     max-width: 100%;
     overflow: auto;
 }
+
 
 .icone-search {
     background-color: #F2F2F2;
@@ -110,7 +119,10 @@ h1 {
 /*bar de recherche*/
 /*filtres*/
 
-.filtres,
+.Filtres {
+    margin-top:2em;
+}
+
 h4 {
     display: inline-flex;
     max-width: 100%;
@@ -153,7 +165,12 @@ h4 {
 }
 
 .btn-filtre p {
-    margin: 0 1rem;
+    margin: 10px 1rem;
+}
+
+.info {
+    display: flex;
+    margin-top: 4em;
 }
 
 .icn-info {
@@ -174,13 +191,16 @@ h4 {
     margin: auto 0;
 }
 
+.fa-star {
+    color: #0065FC;
+}
+
 /*Hebergement (section gauche)*/
 .hebergement {
-    display: flex;
-    flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 16px;
     width: 60%;
+    height:45em;
     padding-left: 2.5em;
     padding-right: 2.5em;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
@@ -194,21 +214,79 @@ h4 {
     padding-right: 3em;
 }
 
-    .hebergement h2 {
-        margin: 30px 0 0 30px;
-    }
+.hebergement h2 {
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
 
-    .hebergement img {
-        display:flex;
-        width: 100%;
-        height: 120px;
-        border-radius: 16px;
-        border: 5px solid white;
-        border-bottom: 85px solid white;
-        box-shadow: 5px 5px 19px #c4c0c0;
-    }
+.hebergeim1 {
+    width: 95%;
+    height: 56%;
+    margin: 0.6em;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url(Images/cannebiere.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-.box-heberge {
+.hebergeim2 {
+    width: 95%;
+    height: 56%;
+    margin: 0.6em;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url(Images/hotel_port.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hebergeim3 {
+    width: 95%;
+    height: 56%;
+    margin: 0.6em;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url(Images/mouettes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hebergeim4 {
+    width: 95%;
+    height: 56%;
+    margin: 0.6em;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url(Images/mer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hebergeim5 {
+    width: 95%;
+    height: 56%;
+    margin: 0.6em;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url(Images/panier.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hebergeim6 {
+    width: 95%;
+    height: 56%;
+    margin: 0.6em;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url(Images/amina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+    .box-heberge {
+    height: 80%;
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
@@ -216,17 +294,19 @@ h4 {
 }
 
 .heberge {
-    width: 28%;
-    height: 9em;
-    margin: 30px 15px 80px 30px;
+    border-radius: 2em;
+    width: 30.5%;
+    height: 15em;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
 .box-heberge h3 {
-    margin: -80px 0 0 15px;
+    margin: 0 0 0 13px;
 }
 
 .box-heberge p {
-    margin: 7px 0 0 15px;
+    margin: 7px 0 0 13px;
     font-size: 0.9em;
 }
 
@@ -250,9 +330,8 @@ a {
 /*voir plus */
 
 .voir-plus {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 25px 0 0 35px;
+    margin-left:1.5em;
+    margin-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
     color: black;
@@ -266,7 +345,7 @@ a {
     background-color: #F2F2F2;
     border-radius: 16px;
     width: 32%;
-    height: 620px;
+    height: 45em;
     margin-right: 1em;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
 }
@@ -281,21 +360,46 @@ a {
 
 
 .box-populaire {
-    height:30em;
+    height:38em;
     display: flex;
     flex-direction: column;
 }
 
-    .box-populaire img {
-        width: 33%;
-        height: 92%;
-        margin: 6.45px;
-        margin-left: 8px;
-        margin-right: 0;
-        border-radius: 1.8em 0 0 1.8em;
-        background-size: cover;
-        background-position: center;
-    }
+.popimg1 {
+    width: 33%;
+    height: 92%;
+    margin: 6.45px;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 1.8em 0 0 1.8em;
+    background-image: url(Images/soleil_matin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.popimg2 {
+    width: 34%;
+    height: 92%;
+    margin: 6.45px;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 1.8em 0 0 1.8em;
+    background-image: url(Images/coeur_eau.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.popimg3 {
+    width: 33%;
+    height: 92%;
+    margin: 6.45px;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 1.8em 0 0 1.8em;
+    background-image: url(Images/bleu_blanc.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
         .pop {
     display: flex;
@@ -307,129 +411,167 @@ a {
     margin: auto;
 }
 
-.box-populaire h3 {
-    margin: -130px 0 0 180px;
-    font-size: 1em;
+.textpop1 {
+    margin-left: 20px;
 }
 
-.box-populaire p {
-    margin: 6px 0 0 180px;
-    font-size: 0.9em;
+.textpop2 {
+    margin-left: 20px;
 }
 
-.star {
-    margin: 35px 0 0 180px;
-    color: #0065FC;
+.textpop1 h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.textpop2 h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.textpop1 p {
+     margin-bottom: 4em;
+}
+
+.textpop2 p {
+     margin-bottom: 2.7em;
 }
 
 
 /* activités (section bas) */
 
-.activities {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin: 50px 0 0 0;
+#activities {
     padding-left: 4em;
     padding-right: 4em;
 }
 
-.box-activities {
+#activities h2 {
+    margin-top: 4em;
+    font-family: 'Raleway-Bold';
+    font-size: 1.5em;
+}
+
+#activities h3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+    margin-left: 25px;
+}
+
+
+#box-activities {
+    height: 35em;
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 5em;
 }
 
-.activities-1 img,
-.activities-2 img,
-.activities-3 img,
-.activities-4 img,
-.activities-5 img,
-.activities-6 img {
-    width: 302px;
-    border-radius: 16px;
-    border-bottom: 40px solid white;
-    box-shadow: 2px 2px 19px #c4c0c0;
-    cursor: pointer;
-    transition: 1s ease;
-    margin-top: 20px;
+.activities1 {
+    width: 23%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
-.activities-1 img,
-.activities-4 img {
-    height: 405px;
-    
+.activitiesimg1 {
+    background: url(Images/vieux_port.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    border-radius: 2em 2em 0 0;
 }
 
-.activities-2 img {
-    height: 190px;
+.activitiesimg4 {
+    background: url(Images/calanques.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    border-radius: 2em 2em 0 0;
 }
 
-.activities-3 img {
-    height: 130px;
+.box-activities2 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.activities-5 img {
-    height: 160px;
-    margin-left: -15px;
+.activities2 {
+    height: 55%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
-.activities-6 img {
-    height: 160px;
+.activitiesimg2 {
+    background: url(Images/fort.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+    border-radius: 2em 2em 0 0;
 }
 
-.activities-1,
-.activities-2,
-.activities-4,
-.activities-5 {
-    margin: 10px 33px 0 0;
+.activitiesimg6 {
+    background: url(Images/longchamp.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 82%;
+    border-radius: 2em 2em 0 0;
 }
 
-.activities-3,
-.activities-6 {
-    margin-right: 31px;
-    margin-bottom: 0;
-    margin-left: -335px;
+
+.activities3 {
+    height: 37%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
-.activities-3 {
-    margin-top: 287px;
+.activitiesimg3 {
+    background: url(Images/frioul.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 72%;
+    border-radius: 2em 2em 0 0;
 }
 
-.activities-6 {
-    margin-top: 253px;
+.activitiesimg5 {
+    background: url(Images/notre_dame.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 72%;
+    border-radius: 2em 2em 0 0;
 }
-
-.box-activities h3 {
-    margin: -33px 0 5px 20px;
-    margin-top: -40px;
-}
+   
 
 /*menu (footer)*/
 
 footer {
-    background: #F2F2F2;
-    margin-top: 55px;
-    padding-bottom: 10px;
-}
-
-.footer {
+    background-color: #F2F2F2;
     display: flex;
-    justify-content: center;
+    height: 15em;
 }
 
-.foot-1,
-.foot-2,
-.foot-3 {
-    margin: 25px 250px 10px 0px;
-    list-style-type: none;
+.foot {
+    margin-left: 5.5em;
+    margin-top: 1.5em;
+    width: 23%;
 }
 
-.footer li {
-    margin-bottom: 8px;
+.foot h3 {
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
-.footer a {
-    color: black;
-    text-decoration: none;
+.foot a {
+    display:flex;
+    padding-bottom: 0.9em;
+    font-family: 'Raleway';
 }
