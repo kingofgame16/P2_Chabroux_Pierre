@@ -52,6 +52,11 @@ nav ul {
     padding-top: 3em;
 }
 
+.liennav:hover {
+    color: black;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.459);
+}
+
 
 .body {
     font-family: 'Raleway', sans-serif;
@@ -116,6 +121,11 @@ h1 {
     font-size: 1rem;
     cursor: pointer;
 }
+
+.button-search:hover {
+    text-shadow: white 0px 0px 6px;
+}
+
 /*bar de recherche*/
 /*filtres*/
 
@@ -301,6 +311,10 @@ h4 {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
+.heberge:hover {
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+
 .box-heberge h3 {
     margin: 0 0 0 13px;
 }
@@ -401,7 +415,7 @@ a {
     background-position: center;
 }
 
-        .pop {
+.pop {
     display: flex;
     border-radius: 2em;
     width: 85%;
@@ -409,6 +423,10 @@ a {
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
     margin: auto;
+}
+
+.pop:hover {
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
 }
 
 .textpop1 {
@@ -475,6 +493,10 @@ a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
+.activities1:hover {
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+
 .activitiesimg1 {
     background: url(Images/vieux_port.jpg);
     background-position: center;
@@ -506,6 +528,10 @@ a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
 
+.activities2:hover {
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+
 .activitiesimg2 {
     background: url(Images/fort.jpg);
     background-position: center;
@@ -529,6 +555,10 @@ a {
     height: 37%;
     border-radius: 2em;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+
+.activities3:hover {
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
 }
 
 .activitiesimg3 {
@@ -574,4 +604,8 @@ footer {
     display:flex;
     padding-bottom: 0.9em;
     font-family: 'Raleway';
+}
+
+.foot a:hover {
+    text-shadow: black 0px 0px 1px;
 }
