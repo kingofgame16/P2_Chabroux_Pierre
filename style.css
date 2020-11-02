@@ -126,6 +126,12 @@ h1 {
     text-shadow: white 0px 0px 6px;
 }
 
+#boutonrecherchemobile {
+    display: none;
+    color: white;
+    background-color: #0065FC;
+}
+
 /*bar de recherche*/
 /*filtres*/
 
@@ -630,8 +636,8 @@ footer {
 
     .hebergement {
         margin-right: 1em;
-        margin-left:1em;
-        margin-top:3em;
+        margin-left: 1em;
+        margin-top: 3em;
         width: auto;
     }
 
@@ -686,3 +692,285 @@ footer {
     .activitiesimg6 {
         height: 80%;
     }
+
+@media all and (max-device-width: 480px) {
+
+    body {
+       width: auto;
+    }
+
+    header {
+        flex-direction: column;
+        margin-bottom: 1em;
+        padding: 0;
+    }
+
+        #imglogo {
+            width: 10em;
+        }
+
+        .liennav:nth-child(1) {
+            border-top: unset;
+            border-bottom: solid 4px #0065FC;
+            width: 50%;
+            font-size: 0.8em;
+            padding-bottom: 15px;
+        }
+
+        .liennav:nth-child(2) {
+            width: 50%;
+            color: black;
+            font-size: 0.8em;
+            border-bottom: solid 4px #cacaca85;
+            padding-bottom: 15px;
+        }
+
+        .liennav:nth-child(3) {
+            position: absolute;
+            top: 0.7em;
+            right: 0em;
+            font-size: 0.8em;
+            color: #0065FC;
+            width: 5em;
+        }
+
+        nav {
+            margin: 0;
+        }
+
+        .liennav {
+            width: 50%;
+        }
+
+        nav ul {
+            margin: 0;
+            width: 100%;
+            align-items: flex-end;
+            font-size: 1.4em;
+        }
+
+        .button-search {
+            display: none;
+        }
+
+        #boutonrecherchemobile {
+            display: unset;
+            width: 3em;
+            border: solid;
+            text-align: center;
+            border-radius: 1.3em;
+            height: 3em;
+            position: relative;
+            right: 5px;
+            top: -4px;
+        }
+
+        .fa-search {
+            width: 1.5em;
+            padding-top: 11px;
+        }
+
+        #Filtres1 {
+            padding: 0;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+            #Filtres1 h1 {
+                font-size: 1.5em;
+            }
+
+            #Filtres1 p {
+                font-size: 1em;
+            }
+
+        #search {
+            height: 3em;
+            margin: auto;
+            margin-top: 2em;
+        }
+
+        .icone-search {
+            height: 3em;
+            width: 3em;
+        }
+
+        .input-search {
+            width: 70%;
+            font-size: 1.1em;
+        }
+
+        .marker {
+            padding-top: 0.7em;
+            width: 0.9em;
+        }
+
+        .btn-filtre {
+            margin: 0;
+            margin-bottom: 1em;
+            margin-right: 1em;
+            font-size: 1em;
+            height: 3em;
+        }
+
+        h4 {
+            margin-right: 10em;
+            font-size: 1.3em;
+        }
+
+        footer {
+            flex-direction: column;
+            height: 35em;
+        }
+
+        .foot {
+            width: 100%;
+        }
+
+        .icn-filtre {
+            height: 1.99em;
+            width: 3em;
+        }
+
+        #Filtres1 p {
+            padding-top: 7px;
+        }
+
+        .info {
+            margin-top: 1em;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+        }
+
+        .icn-info {
+            height: 1.7em;
+        }
+
+        .fa-info {
+            padding-top: 4px;
+        }
+
+        #popu {
+            padding: 0;
+        }
+
+        .populaires {
+            margin: 0;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+            .populaires h2 {
+                margin-left: 1em;
+            }
+
+        .pop {
+            width: 90%;
+        }
+
+        .popimg1 {
+            width: 50%;
+        }
+
+        .popimg2 {
+            width: 75%;
+        }
+
+        .popimg3 {
+            width: 50%;
+        }
+
+        .textpop1 p {
+            font-family: 'Raleway';
+            margin-bottom: 40px;
+        }
+
+        .textpop1 h3 {
+            margin-bottom: 10px;
+        }
+
+        .textpop2 p {
+            font-family: 'Raleway';
+            margin-bottom: 40px;
+        }
+
+        .textpop2 h3 {
+            margin-bottom: 10px;
+        }
+
+        .box-heberge {
+            flex-wrap: nowrap;
+            flex-direction: column;
+            height: 90%;
+        }
+
+        .heberge {
+            width: 95%;
+            margin: auto;
+        }
+
+        .hebergement {
+            height: 115em;
+            margin-left: 0;
+            margin-right: 0;
+            background-color: unset;
+            box-shadow: unset;
+            padding: 0;
+        }
+
+            .hebergement h2 {
+                margin-left: 1em;
+            }
+
+        .voir-plus {
+            margin-left: 1em;
+        }
+
+        #activities {
+            padding: 0;
+            margin: 0;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
+
+            #activities h2 {
+                margin-top: 1em;
+            }
+
+        #box-activities {
+            margin: 0;
+            margin-bottom: 2em;
+            height: 95em;
+        }
+
+        .box-activities2 {
+            flex-direction: column;
+            height: 33%;
+        }
+
+        .activities1 {
+            width: 100%;
+            height: 16%;
+            margin: auto;
+            margin-bottom: 1.5em;
+        }
+
+        .activities2 {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 1.5em;
+        }
+
+        .activities3 {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 1.5em;
+        }
+
+        #activities h3 {
+            margin-top: 10px;
+        }
+
+    .foot {
+       width: 80%;
+    }    }    } 
