@@ -608,3 +608,81 @@ footer {
 .foot a:hover {
     text-shadow: black 0px 0px 1px;
 }
+
+
+@media screen and (max-width: 1480px) {
+    body {
+        width: auto;
+    }
+
+    #popu {
+        flex-direction: column-reverse;
+    }
+
+    .populaires {
+        margin-left: 1em;
+        width: auto;
+    }
+
+    .Filtres {
+        width: 100%;
+    }
+
+    .hebergement {
+        margin-right: 1em;
+        margin-left:1em;
+        margin-top:3em;
+        width: auto;
+    }
+
+    #box-activities {
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+        height: 80em;
+    }
+
+    .box-activities2 {
+        width: 100%;
+        height: 20%;
+        flex-direction: row;
+    }
+
+    .activities1 {
+        width: 100%;
+        height: 20%;
+    }
+
+    .activities2 {
+        width: 48%;
+        height: 100%;
+    }
+
+    .activities3 {
+        width: 48%;
+        height: 100%;
+    }
+
+    .activitiesimg1 {
+        height: 80%;
+    }
+
+    .activitiesimg2 {
+        height: 80%;
+    }
+
+    .activitiesimg3 {
+        height: 80%;
+    }
+
+    .activitiesimg4 {
+        height: 80%;
+    }
+
+    .activitiesimg5 {
+        height: 80%;
+    }
+
+    .activitiesimg6 {
+        height: 80%;
+    }
