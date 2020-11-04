@@ -5,8 +5,8 @@
 
 body {
     font-family: 'Raleway';
-    width: 100%;
     margin: auto;
+    
 }
 
 #nav2 {
@@ -30,6 +30,7 @@ header {
 .headerNav {
     display: flex;
     align-items: center;
+    padding-left:61%;
 }
 
 .headerNavLink {
@@ -43,6 +44,7 @@ header {
 
     .headerNavLink[data-active=true] {
         color: #0065FC;
+        border-top: 3px solid #0065FC;
     }
 
 .headerSignup {
@@ -51,12 +53,6 @@ header {
     padding: 2rem;
     color: #0065FC;
     font-weight: 600;
-}
-
-
-.body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #f2f2f2;
 }
 
 h1 {
@@ -621,6 +617,12 @@ body {
   width: auto;
 }
 
+.headerNav {
+   display: flex;
+   align-items: center;
+   padding-left: 46%;
+}
+
 #popu {
   flex-direction: column-reverse;
 }
@@ -717,6 +719,12 @@ header {
    padding-left:6%;
 }
 
+.headerNav {
+   display: flex;
+   align-items: center;
+   padding-left:0;
+}
+
 .headerNavLink {
    padding: 2rem;
    font-weight: 500;
@@ -735,9 +743,10 @@ header {
    width: 5em;
 }
 
-.headerNavLink[data-active=true] {
-   border-bottom-color: #0065FC;
-}
+    .headerNavLink[data-active=true] {
+        border-bottom-color: #0065FC;
+        border-top: 3px transparent solid;
+    }
 
 .headerNavLink {
    border-top: none;
