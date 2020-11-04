@@ -620,7 +620,7 @@ body {
 .headerNav {
    display: flex;
    align-items: center;
-   padding-left: 46%;
+   padding-left: 32%;
 }
 
 #popu {
