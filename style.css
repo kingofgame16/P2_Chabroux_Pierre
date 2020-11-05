@@ -10,6 +10,8 @@ body {
 }
 
 #nav2 {
+    max-width:1440px;
+    margin:auto;
     padding-left:32px;
     padding-right:32px;
 }
@@ -42,10 +44,10 @@ header {
     border-bottom: 3px transparent solid;
 }
 
-    .headerNavLink[data-active=true] {
-        color: #0065FC;
-        border-top: 3px solid #0065FC;
-    }
+.headerNavLink[data-active=true] {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
 
 .headerSignup {
     display: flex;
@@ -96,11 +98,11 @@ h1 {
     font-family: "Raleway", "Sans serif";
 }
 
-    .input-search placeholder {
-        font-family: "Raleway", "Sans serif";
-        font-size: 1rem;
-        color: #00000069;
-    }
+.input-search placeholder {
+   font-family: "Raleway", "Sans serif";
+   font-size: 1rem;
+   color: #00000069;
+}
 
 .button-search {
     background-color: #0065FC;
@@ -153,10 +155,10 @@ h4 {
     transition-duration: 0.1s;
 }
 
-    .btn-filtre:hover {
-        background-color: #f3f8ff;
-        transform: scale(1.015);
-    }
+.btn-filtre:hover {
+    background-color: #f3f8ff;
+    transform: scale(1.015);
+}
 
 .icn-filtre {
     background-color: #DEEBFF;
@@ -205,6 +207,8 @@ h4 {
 
 /*Hebergement (section gauche)*/
 #first {
+    max-width: 1440px;
+    margin: auto;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -461,6 +465,8 @@ a {
 /* activités (section bas) */
 
 #activities {
+    max-width: 1440px;
+    margin: auto;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -585,7 +591,10 @@ a {
 footer {
     background-color: #F2F2F2;
     display: flex;
-    height: 15em;
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .foot {
@@ -743,10 +752,10 @@ header {
    width: 5em;
 }
 
-    .headerNavLink[data-active=true] {
-        border-bottom-color: #0065FC;
-        border-top: 3px transparent solid;
-    }
+.headerNavLink[data-active=true] {
+   border-bottom-color: #0065FC;
+   border-top: 3px transparent solid;
+}
 
 .headerNavLink {
    border-top: none;
@@ -778,7 +787,7 @@ nav ul {
 
 .fa-search {
    width: 1.5em;
-   padding-top: 11px;
+   padding-top: 15px;
 }
 
 #Filtres1 {
