@@ -212,6 +212,13 @@ h4 {
     padding-left: 32px;
     padding-right: 32px;
 }
+
+#popu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
 .hebergement {
     background-color: #F2F2F2;
     border-radius: 16px;
@@ -222,12 +229,6 @@ h4 {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
 }
 
-#popu {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-
-}
 
 .hebergement h2 {
     margin-top: 2em;
@@ -831,14 +832,7 @@ h4 {
    margin: 0;
 }
 
-footer {
-   flex-direction: column;
-   height: 35em;
-}
 
-.foot {
-   width: 100%;
-}
 
 .icn-filtre {
    height: 1.99em;
@@ -982,6 +976,11 @@ footer {
 
 #activities h3 {
    margin-top: 10px;
+}
+
+footer {
+   flex-direction: column;
+   height: 35em;
 }
 
 .foot {
