@@ -5,8 +5,8 @@
 
 body {
     font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     margin: auto;
-    
 }
 
 #nav2 {
@@ -58,12 +58,10 @@ header {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-size: 1.9em;
 }
 
 #Filtres1 p {
-    font-family: 'Raleway', sans-serif;
     font-size: 1.38em;
     margin-top:0.5em;
 }
@@ -95,11 +93,9 @@ h1 {
     width: 14rem;
     font-size: 1rem;
     font-weight: bold;
-    font-family: "Raleway", "Sans serif";
 }
 
 .input-search placeholder {
-   font-family: "Raleway", "Sans serif";
    font-size: 1rem;
    color: #00000069;
 }
@@ -111,7 +107,6 @@ h1 {
     border: none;
     border-radius: 0 1rem 1rem 0;
     padding: 0 1.25rem;
-    font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
 }
@@ -138,12 +133,10 @@ h4 {
     max-width: 100%;
     padding-top: 25px;
     padding-right: 15px;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
 
 .btn-filtre {
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     display: inline-flex;
     align-items: center;
@@ -613,7 +606,6 @@ footer {
 .foot a {
     display:flex;
     padding-bottom: 0.9em;
-    font-family: 'Raleway';
 }
 
 .foot a:hover {
@@ -710,6 +702,7 @@ body {
 
 body {
   width: auto;
+  font-family: 'Raleway';
 }
 
 #nav2 {
@@ -832,8 +825,6 @@ h4 {
    margin: 0;
 }
 
-
-
 .icn-filtre {
    height: 1.99em;
    width: 3em;
@@ -889,7 +880,6 @@ h4 {
 }
 
 .textpop1 p {
-   font-family: 'Raleway';
    margin-bottom: 40px;
 }
 
@@ -898,7 +888,6 @@ h4 {
 }
 
 .textpop2 p {
-   font-family: 'Raleway';
    margin-bottom: 20px;
 }
 
